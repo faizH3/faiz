@@ -29,9 +29,7 @@ while (jawab=="y"):
 		luas = c1 ** 2
 		print("-------------------------------------  ")
 		print("                    luas: ",luas )
-	elif jawab>3:
-		print("input yang anda masukan tidak ada.")
-                break
+	
 	jawab = raw_input("apakah anda ingin mencoba lagi? y/n -")
 	if jawab=="n":
 		print("terimakasih sudah mencoba.")
