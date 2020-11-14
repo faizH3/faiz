@@ -7,9 +7,9 @@ while(jawab=="y"):
  print("MENU PROGRAM")
  print("1. Menghitung luas segitiga")
  print("2. Menghitung luas lingkaran")
+ A=input("pilih menu:")
  a=(A)
  b=(A)
- A=input("pilih menu:")
  if a==1:
   a1=raw_input("ketikan alas segitiga:")
   a2=raw_input("ketikan tinggi segitiga:")
