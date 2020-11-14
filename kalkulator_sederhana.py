@@ -4,7 +4,7 @@ while (jawab=="y"):
 	print("|||||||||||||||  PROGRAM KALKULATOR SEDERHANA  |||||||||||||||||||")
 	print("==================================================================")
 	print("                     >>>>MENU PROGRAM<<<<")
-	print("                                   								 ")
+	print("                                   				 ")
 	print("1. menghitung luas segitiga                ")
 	print("2. menghitung luas lingkaran               ")
 	print("3. menghitung luas bujur sangkar           ")
