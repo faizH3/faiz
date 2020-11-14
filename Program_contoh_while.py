@@ -10,12 +10,12 @@ while(jawab=="y"):
  A=input("pilih menu:")
  a=(A)
  b=(A)
- if a==1:
+ if 1==a:
   a1=raw_input("ketikan alas segitiga:")
   a2=raw_input("ketikan tinggi segitiga:")
   Luas=(a1*a2)/2
   print("Luas=",Luas)
- elif b==2:
+ elif 2==b:
   b1=input("ketikan jari-jari lingkaran:")
   Luas=22/7*(b1**2)
   print("Luas=",Luas)
