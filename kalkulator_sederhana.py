@@ -14,18 +14,18 @@ while (jawab=="y"):
 	b = (A)
 	c = (A)
 	if a==1:
-		a1 = int(input("    ketikan alas segitiga:    "))
-		a2 = int(input("  ketikan tinggi segitiga:    "))
+		a1 = int(input("    ketikan alas segitiga:   "))
+		a2 = int(input("  ketikan tinggi segitiga:   "))
 		print("-------------------------------------  ")
 		luas = (a1 * a2) / 2
 		print("                     luas: ",luas)
 	elif b==2:
-		b1 = int(input("ketikan jari-jari lingkaran:    "))
+		b1 = int(input("ketikan jari-jari lingkaran:   "))
 		print("-------------------------------------  ")
 		luas = 22 / 7 * (b1**2)
-		print("                        luas: ",luas)
+		print("                       luas: ",luas)
 	elif c==3:
-		c1 = int(input("ketikan sisi bujur sangkar:    "))
+		c1 = int(input("ketikan sisi bujur sangkar:  "))
 		luas = c1 ** 2
 		print("-------------------------------------  ")
 		print("                      luas: ",luas )
