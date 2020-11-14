@@ -19,8 +19,8 @@ while(jawab=="y"):
   b1=input("ketikan jari-jari lingkaran:")
   Luas=22/7*(b1**2)
   print("Luas=",Luas)
- jawab=raw_input("apakah anda ingin mengulangi lagi? y/n -")
- if jawab=="n":
+ jawab= input("apakah anda ingin mengulangi lagi? y/n -")
+ elif jawab=="n":
   print("terimakasih sudah mencoba.")
   break
  elif jawab!="y":
