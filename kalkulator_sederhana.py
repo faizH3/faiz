@@ -30,7 +30,7 @@ while (jawab=="y"):
 		print("-------------------------------------  ")
 		print("                    luas: ",luas )
 	
-	jawab = raw_input("apakah anda ingin mencoba lagi? y/n -")
+	jawab = input("apakah anda ingin mencoba lagi? y/n -")
 	if jawab=="n":
 		print("terimakasih sudah mencoba.")
 	elif jawab!="y":
