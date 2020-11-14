@@ -11,8 +11,8 @@ while(jawab=="y"):
  a=(A)
  b=(A)
  if a==1:
- a1=input("ketikan alas segitiga:)
- a2=input("ketikan tinggi segitiga:)
+ a1=input("ketikan alas segitiga:")
+ a2=input("ketikan tinggi segitiga:")
  Luas=(a1*a2)/2
  print("Luas=",Luas)
  elif b==2:
