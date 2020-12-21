@@ -1,6 +1,5 @@
 import math
-jawab = "y"
-while (jawab=="y"):
+while True:
 	print("v1.0.0")
 	print("==========================================================")
 	print("||||||||||||||PROGRAM KALKULATOR SEDERHANA||||||||||||||||")
@@ -32,9 +31,8 @@ while (jawab=="y"):
 	d = (A)
 	e = (A)
 	f = (A)
-	if a==1:
-		T = "y"
-		while(T=="y"):
+	if a=="1":
+		while True:
 			print("|>______________________________________________________<|")
 			print("|>+---+                                                 <|")
 			print("|>| 1 | menghitung rumus segitiga                       <|")
@@ -48,21 +46,21 @@ while (jawab=="y"):
 			aa = (a1)
 			ab = (a1)
 			ac = (a1)
-			if aa==1: #luas
+			if aa=="1": #luas
 				aa1 = input("alas: ")
 				aa2 = input("tinggi: ")
 				luas = (aa1 * aa2) / 2	
 				print("        "+str(aa1)+"x"+str(aa2))	
 				print("luas = ------- = "+str(luas))
 				print("          2")
-			elif ab==2: #alas
+			elif ab=="2": #alas
 				ab1 = input("luas: ")
 				ab2 = input("tinggi: ")
 				alas = (ab1 * 2) / ab2
 				print("        "+str(ab1)+"x"+str("2"))
 				print("alas = ------- = "+str(alas))
 				print("          "+str(ab2))
-			elif ac==3:
+			elif ac=="3":
 				ac1 = input("luas: ")
 				ac2 = input("alas: ")
 				tinggi = (ac1 * 2) / ac2
