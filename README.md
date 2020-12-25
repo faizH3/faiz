@@ -1,6 +1,4 @@
-<p>  ___  ___ __    __   __</p>
-<p>  |  | |_   \\   /\\  /</p>
-<p>  |  | |__   \\-/  \\/  Bie</p>
+open.python(print("sayay")
   </p>
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=faizH3" alt="faizH3" /> </p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=faizH3&show_icons=true" alt="faizH3" /></p>
