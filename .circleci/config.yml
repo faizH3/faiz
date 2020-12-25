@@ -13,7 +13,7 @@ jobs:
       -python/save-cache
       -run
         command
-        name: Test
+        name
         
 workflows:
   main:
