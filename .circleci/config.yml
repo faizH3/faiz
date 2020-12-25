@@ -11,7 +11,8 @@ jobs:
       -python/load-cache
       -python/install-deps
       -python/save-cache
-      -run:
+      -run
+        run:
         command: ./manage.py test
         name: Test
         
