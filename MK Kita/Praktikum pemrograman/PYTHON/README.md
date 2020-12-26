@@ -4,7 +4,7 @@
     write a program which prompts the user for a celcius temperature, convert the temperature to fahreinhet  and print out the converted the temperature.
   Hint: use the following formula<br>
   F = C*9/5+32<br>
-  Here, C is the temperature in celcius and F is the temperature fahreinhet <br><a href="https://github.com/faizH3/newbie/blob/MyCourses/MK%20Kita/Praktikum%20pemrograman/PYTHON/1.konversi_suhu.py">>VIEW CODING</a></p>
+  Here, C is the temperature in celcius and F is the temperature fahreinhet <br><a href="https://github.com/faizH3/newbie/blob/MyCourses/MK%20Kita/Praktikum%20pemrograman/PYTHON/1.konversi_suhu.py">>>view coding</a></p>
 
 <h3>2. notation if</h3>
 <p align="justify">Problem Statement:<br>
@@ -19,4 +19,4 @@ Time between 17-20 : Good Evening<br>
 
 Time between 21-24 : Good Night<br>
 
-Otherwise : Wrong Input<br></p>
+Otherwise : Wrong Input<br><a href="https://github.com/faizH3/newbie/blob/MyCourses/MK%20Kita/Praktikum%20pemrograman/PYTHON/2.notation_if.py">>>view coding</a></p>
