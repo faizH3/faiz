@@ -20,3 +20,5 @@ Time between 17-20 : Good Evening<br>
 Time between 21-24 : Good Night<br>
 
 Otherwise : Wrong Input<br><a href="https://github.com/faizH3/newbie/blob/MyCourses/MK%20Kita/Praktikum%20pemrograman/PYTHON/2.notation_if.py">>>view coding</a></p>
+<select name="coding">
+  <option value=""><a href="https://github.com/faizH3/newbie/edit/MyCourses/MK%20Kita/Praktikum%20pemrograman/PYTHON/README.md">uji coba</a></option></select>
