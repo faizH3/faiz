@@ -1,22 +1,23 @@
-﻿import math
-
+import math
 while True:
-        print("v1.0.0")
+        print("v1.0.1")
         print("=================================================================")
         print("|||||||||||||||||PROGRAM KALKULATOR SEDERHANA||||||||||||||||||||")
         print("|>_____________________________________________________________<|")
         print("[>>>>>>>>>>>>>>>>>>>>>>> MENU PROGRAM <<<<<<<<<<<<<<<<<<<<<<<<<<]")
         print("=================================================================")
         print("|>+---+                                                        <|")
-        print("|>| 1 | luas bangun datar                                      <|")
+        print("|>| 1 | LUAS BANGUN DATAR                                      <|")
         print("|>+---+                                                        <|")
-        print("|>| 2 | menghitung luas lingkaran                              <|")
+        print("|>| 2 | VOLUME                                                 <|")
         print("|>+---+                                                        <|")
-        print("|>| 3 | menghitung deret luas bujur sangkar + kalkulus         <|")
+        print("|>| 3 | MENGHITUNG DERET LUAS BUJUR SANGKAR(KALKULUS)          <|")
         print("|>+---+                                                        <|")
-        print("|>| 4 | menghitung luas persegi panjang                        <|")
+        print("|>| 4 | KALKULUS                                               <|")
         print("|>+---+                                                        <|")
-        print("|>| 5 | limit fungsi                                           <|")
+        print("|>| 5 | ?????                                                  <|")
+        print("|>+---+                                                        <|")
+        print("|>| 6 | ?????                                                  <|")
         print("|>+---+                                                        <|")
         print("|>| 0 | exit                                                   <|")
         print("|>+---+                                                        <|")
@@ -73,7 +74,6 @@ while True:
                             print("            %s"%(ac2))
                             print("-----------------------------------------------------------------")
                         print('\n[yes|no|exit]')
-                        a = input("ulangi lagi[y/n/x]: ")
                         if a=="n" or a=="N":
                             break
                         elif a=="y" or a=="Y":
@@ -132,7 +132,24 @@ while True:
                 elif a=='4':
                     while True:
                         print('\nluas lingkaran')
-
+                        print("pilih diketahui")
+                        print("1. jari-jari")
+                        print("2. diameter")
+                        b1 = input("pilih menu: ")
+                        if b1=="1": #jari-jari
+                            bb1 = input("jari-jari lingkaran: ")
+                            luas = 22/7 * (float(bb1) ** 2)#luas lingkaran
+                            a = float(bb1)**2
+                            print("luas = 22/7x%s^2"%(bb1))#mengeluarkan penjabaran pertama
+                            print("     = 22/7x%s"%(a))#mengeluarkan penjabaran kedua
+                            print("     = %.2f"%(luas))#hasil
+                        elif b1=="2": #diameter
+                            bc1 = input("ketikan diameter lingkaran: ")
+                            luas = (float(22)/7)*(float((bc1)/2)**2) #luas lingkaran
+                            print("luas  = 22/7x%s"+str("22/7x")+str(bc1)+str("/2"))#penjabaran
+                            print("      = "+str("22/7x")+str(bc1/2)+str("^2"))#penjabaran
+                            print("      = "+str(luas)) #hasil ouput
+                            print("---------------------------------------------------------")
                         print('\n[yes|no|exit]')
                         a = input("ulangi lagi[y/n/x]: ")
                         if a=="n" or a=="N":
@@ -144,7 +161,7 @@ while True:
                 elif a=='5':
                     while True:
                         print('\ntrapesium')
-
+                        
                         print('\n[yes|no|exit]')
                         a = input("ulangi lagi[y/n/x]: ")
                         if a=="n" or a=="N":
@@ -271,15 +288,249 @@ while True:
             while True:
                 print("|>_____________________________________________________________<|")
                 print("|>+---+                                                        <|")
-                print("|>| 4 | menghitung luas persegi panjang                        <|")
+                print("|>| 4 | KALKULUS                                               <|")
                 print("|>+---+                                                        <|")
                 print("|>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^<|")
-                d1 = input("ketikan panjang persegi panjang: ")
-                d2 = input("ketikan lebar persegi panjang:")
-                luas = d1 * d2
-                print("luas = "+str(d1)+str("*")+str(d2)+str("=")+str(luas))
-                print("")
-                print("---------------------------------------------------------------")
+                print('MENU: 1.  PART 1(FUNGSI LINEAR)                                <|')
+                print('      2.  PART 2(SISTEM BILANGAN REAL)                         <|')
+                print('      3.  PART 3(PERSAMAAN DAN PERTIDAKSAMAAN)                 <|')
+                print('      4.  PART 4(PERTIDAKSAMAAN IRASIONAL)                     <|')
+                print('      5.  PART 5(QUIS)                                         <|')
+                print('      6.  PART 6(LIMIT FUNGSI)                                 <|')
+                print('      7.  PART 7(LIMIT FUNGSI)                                 <|')
+                print('      8.  PART 8(TURUNAN FUNGSI)                               <|')
+                print('      9.  PART 9(MID)                                          <|')
+                print('      10. PART 10(SISTEM BILANGAN REAL DAN FUNGSI)             <|')
+                print('      11. PART 11(INTEGRAL TENTU & TAK TENTU)                  <|')
+                print('      12. PART 12(INTEGRAL)                                    <|')
+                print('      13. PART 13(INTEGRAL GANDA)                              <|')
+                print('      0.  BACK                                                 <|')
+                print("---------------------------------------------------------------<|")
+                a = input('pilih menu: ')
+                if a=='1':
+                        print('\n[[1. Fungsi linear ]]')
+                        print('[[2. Fungsi kuadrat]]')
+                        a=input('pilih menu: ')
+                        if a=='1':
+                                print('\n[fungsi linear]')
+                                while True:
+                                    print('1. lihat materi')
+                                    print('2. mengerjakan')
+                                    a = input('pilih no 1/2: ')
+                                    if a=='1':
+                                        print('''
+bentuk persmaan: y = ax+b
+dimana:
+y = variabel tidak bebas
+x = variabel bebas
+a dan b = konstanta
+
+ciri-ciri persamaan linear:
+1. apabila a > 0 maka garis a akan bergerak dari bawah ke kanan atas.
+2. apabila a < 0 maka garis akan bergerak dari kiri atas ke kanan bawah.
+3. apabila a1 != a2 maka garis akan berpotongan
+4. apabila a1 = a2 maka garis akan sejajar
+5. titik b merupakan perpotongan pada sumbu y
+6. a disebut juga tan a, a juga berarti menunjukan arah.
+
+rumus umum tan a:
+a = y2 - y1
+    x2 - x1
+
+1. contoh soal persamaan linear
++---------------+
+| x | 1 | 2 | 3 |
++---+---+---+---+
+| y | 9 |11 |13 |
++---+---+---+---+
+a. tentukan persamaannya!
+b. gambarkan grafiknya!
+
+jawab
+sebelum mengerjakan kita lihat apakah sudah ada bentuk persamaan nya. contoh bentuk persamaan yaitu, bisa y = x + 2, bisa y = 2x + 4 dan sebagainya.
+nah mungkin kawan-kawan ada yang bingung apa bedanya linear dan kuadrat, untuk ciri linear pada variabelnya tidak berpangkat,
+contoh: y = x + 2
+        lihat x dan y disebut dengan variabel sedang 2 disebut dengan konstanta
+        y = x^2 + 2
+        disebut dengan persamaan kuadrat
+        
+kembali contoh soal diatas, contoh tersebut belum ada bentuk persamaannya. maka kita tentukan dulu bentuk persamaannya.
+kita lihat bentuk umum persamaan
+y = ax + b
+kemudian kita sumbstitusikan nilai x dan y kedalam bentuk umum tersebut
+nilai pada kolom pertama x = 1 dan y = 9 maka kita tuliskan sebagai berikut sesuai dengan bentuk umum
+9 = a + b
+11 = 2a + b
+13 = 3a + b
+
+setelah itu kita tentukan nilai a dan b dengan cara metode eliminasi
+
+kita ambil dua bentuk persamaan yang termudah
+9 = a + b
+11=2a + b
+--------- -
+-2= -a
+a = 2 ->(substitusi a ke 9 = a + b)
+
+9 = 2 + b
+b = 9 - 2
+b = 7
+jadi persamaannya adalah y = 2x + 7
+''')
+                                    print('\n[yes|no|exit]')
+                                    a = input("ulangi lagi[y/n/x]: ")
+                                    if a=="n" or a=="N":
+                                        break
+                                    elif a=="y" or a=="Y":
+                                        print()
+                                    elif a=='x' or a=='X':
+                                        exit()
+                        elif a=='2':
+                            print('\nfungsi kudrat')
+                            
+                            print('\n[yes|no|exit]')
+                            a = input("ulangi lagi[y/n/x]: ")
+                            if a=="n" or a=="N":
+                                break
+                            elif a=="y" or a=="Y":
+                                print()
+                            elif a=='x' or a=='X':
+                                exit()
+                            
+                                
+                elif a=='2':
+                    print('\n[[2. sistem bilangan real]]')
+                    
+                    print('\n[yes|no|exit]')
+                    a = input("ulangi lagi[y/n/x]: ")
+                    if a=="n" or a=="N":
+                        break
+                    elif a=="y" or a=="Y":
+                        print()
+                    elif a=='x' or a=='X':
+                        exit()
+
+                elif a=='3':
+                    while True:                    
+                        print('\n[[1. persamaan]]')
+                        print('[[2. pertidaksamaan]]')
+                        print('[[0. back')
+                        a = input('pilih no.1/2>')
+                        if a=='1':
+                            while True:
+                                print('[persamaan]')
+                                print('''\nbentuk umum persamaan kuadrat ax^2+bx+c=0
+contoh:
+x^2+x-2=0
+a=1, b=1, c=-2
+
+input a :1
+input b :1
+input c :-2
+
+    -b +- /b^2-4ac
+x = --------------
+           2a
+    -1 +-/1^2-4(1)(-2)
+  = ------------------
+           2(1)
+    -1 +-/1+8
+  = ---------
+        2
+    -1 +-/9
+  = -------
+       2
+    -1 +- 3
+  = -------
+       2
+    -1 + 3 |     -1 - 3
+x1= ------ | x2= ------
+      2    |       2
+    2      |     -4
+  = -      |   = --
+    2      |      2
+x1= 1      | x2= -2''')
+                                print('_________________________')
+                                print('menentukan akar persamaan')
+                                print('      ax^2+bx+c=0')
+                                a = int(input('\ninput a: '))
+                                b = int(input('input b: '))
+                                c = int(input('input c: '))
+                                
+                                bb = -1*b
+                                b_2 = b**2
+                                ac = 4*a*c
+                                d = (b**2)-(4*a*c)
+                                penyebut = 2*a
+                                akar = math.sqrt(d)
+                                xa = bb + akar
+                                xb = bb - akar
+                                x1 = (bb + akar)/(2*a)
+                                x2 = (bb - akar)/(2*a)
+                                #print(b_2, ac, d, penyebut, akar)
+                                print('''
+menggunakan rumus persamaan kuadrat:
+    -b +- /b^2-4ac
+x = --------------
+           2a
+
+    -(%s) +- /%s^2-4(%s)(%s)
+x = ------------------
+            2(%s)
+            
+    %s +- /%s-(%s)
+  = -------------
+          %s
+          
+    %s +- /%s
+  = --------
+        %s
+    
+    %s +- %i
+  = -------
+       %s
+     %s + %i 
+x1 = ------  
+       %s
+     %i
+   = -
+     %s
+x1 = %s
+
+     %s - %i
+x2 = ------
+       %s
+     %i
+   = --
+     %s
+x2 = %s
+'''%(b,b,a,c,a,bb,b_2,ac,penyebut,bb,d,penyebut,bb,akar,penyebut,bb,akar,penyebut,xa,penyebut,x1,bb,akar,penyebut,xb,penyebut,x2))
+                                print('jadi akar-akar persamaannya adalah, x1 = %s dan dan x2 = %s'%(x1,x2))
+                                print('\n[yes|no|exit]')
+                                a = input("ulangi lagi[y/n/x]: ")
+                                if a=="n" or a=="N":
+                                    break
+                                elif a=="y" or a=="Y":
+                                    print()
+                                elif a=='x' or a=='X':
+                                    exit()
+                                
+                        elif a=='2':
+                            while True:
+                                print('[pertidaksamaan]')
+
+                                print('\n[yes|no|exit]')
+                                a = input('ulangi lagi[y/n/x]: ')
+                                if a=='n' or a=='N':
+                                    break
+                                elif a=='y' or a=='Y':
+                                    print()
+                                elif a=='x' or a=='X':
+                                    exit()
+                        elif a=='0':
+                            break
+                elif a=='0':
+                    break    
                 print('\n[yes|no|exit]')
                 a = input("ulangi lagi[y/n/x]: ")
                 if a=="n" or a=="N":
@@ -295,6 +546,108 @@ while True:
                     print("|>| 5 | limit fungsi                                           <|")
                     print("|>+---+                                                        <|")
                     print("|>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^<|")
+                    print('\n[yes|no|exit]')
+                    a = input("ulangi lagi[y/n/x]: ")
+                    if a=="n" or a=="N":
+                        break
+                    elif a=="y" or a=="Y":
+                        print()
+                    elif a=='x' or a=='X':
+                        exit()
+        elif menu=="6":
+                while True:
+                    print("|>_____________________________________________________________<|")
+                    print("|>+---+                                                        <|")
+                    print("|>| 6 | persamaan kuadrat                                      <|")
+                    print("|>+---+                                                        <|")
+                    print("|>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^<|")
+                    print('''\nbentuk umum persamaan kuadrat ax^2+bx+c=0
+contoh:
+x^2+x-2=0
+a=1, b=1, c=-2
+
+input a :1
+input b :1
+input c :-2
+
+    -b +- /b^2-4ac
+x = --------------
+           2a
+    -1 +-/1^2-4(1)(-2)
+  = ------------------
+           2(1)
+    -1 +-/1+8
+  = ---------
+        2
+    -1 +-/9
+  = -------
+       2
+    -1 +- 3
+  = -------
+       2
+    -1 + 3 |     -1 - 3
+x1= ------ | x2= ------
+      2    |       2
+    2      |     -4
+  = -      |   = --
+    2      |      2
+x1= 1      | x2= -2''')
+                    print('_________________________')
+                    print('menentukan akar persamaan')
+                    print('      ax^2+bx+c=0')
+                    a = int(input('\ninput a: '))
+                    b = int(input('input b: '))
+                    c = int(input('input c: '))
+                    
+                    bb = -1*b
+                    b_2 = b**2
+                    ac = 4*a*c
+                    d = (b**2)-(4*a*c)
+                    penyebut = 2*a
+                    akar = math.sqrt(d)
+                    xa = bb + akar
+                    xb = bb - akar
+                    x1 = (bb + akar)/(2*a)
+                    x2 = (bb - akar)/(2*a)
+                    #print(b_2, ac, d, penyebut, akar)
+                    print('''
+menggunakan rumus persamaan kuadrat:
+    -b +- /b^2-4ac
+x = --------------
+           2a
+
+    -(%s) +- /%s^2-4(%s)(%s)
+x = ------------------
+            2(%s)
+            
+    %s +- /%s-(%s)
+  = -------------
+          %s
+          
+    %s +- /%s
+  = --------
+        %s
+    
+    %s +- %i
+  = -------
+       %s
+     %s + %i 
+x1 = ------  
+       %s
+     %i
+   = -
+     %s
+x1 = %s
+
+     %s - %i
+x2 = ------
+       %s
+     %i
+   = --
+     %s
+x2 = %s
+'''%(b,b,a,c,a,bb,b_2,ac,penyebut,bb,d,penyebut,bb,akar,penyebut,bb,akar,penyebut,xa,penyebut,x1,bb,akar,penyebut,xb,penyebut,x2))
+                    print('jadi akar-akar persamaannya adalah, x1 = %s dan dan x2 = %s'%(x1,x2))
                     print('\n[yes|no|exit]')
                     a = input("ulangi lagi[y/n/x]: ")
                     if a=="n" or a=="N":
