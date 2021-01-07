@@ -161,7 +161,25 @@ while True:
                 elif a=='5':
                     while True:
                         print('\ntrapesium')
-                        
+                        print('''
+Menu:
+1. Keliling
+2. Luas
+3. Tinggi
+4. Sisi a
+5. Sisi b
+6. Sisi AD
+7. Sisi BC
+''')
+                        a = input('pilih menu: ')
+                        if a=='1':
+                            while True:
+                                print('/nKeliling')
+                                AB = input('input AB:')
+                                BC = input('input BC:')
+                                CD = input('input CD:')
+                                DA = input('input DA:')
+
                         print('\n[yes|no|exit]')
                         a = input("ulangi lagi[y/n/x]: ")
                         if a=="n" or a=="N":
