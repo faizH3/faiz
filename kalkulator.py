@@ -170,24 +170,88 @@ Menu:
 5. Sisi b
 6. Sisi AD
 7. Sisi BC
+0. back
+00.exit
 ''')
                         a = input('pilih menu: ')
-                        if a=='1':
-                            while True:
-                                print('/nKeliling')
-                                AB = input('input AB:')
-                                BC = input('input BC:')
-                                CD = input('input CD:')
-                                DA = input('input DA:')
-
-                        print('\n[yes|no|exit]')
-                        a = input("ulangi lagi[y/n/x]: ")
-                        if a=="n" or a=="N":
+                        if a=='0':
                             break
-                        elif a=="y" or a=="Y":
-                            print()
-                        elif a=='x' or a=='X':
+                        elif a=='00':
                             exit()
+                        elif a=='1':
+                            while True:
+                                print('\nKeliling')
+                                AB = int(input('input AB:'))
+                                BC = int(input('input BC:'))
+                                CD = int(input('input CD:'))
+                                DA = int(input('input DA:'))
+                                keliling = AB + BC + CD +DA
+                                print('keliling: AB+BC+CD+DA')
+                                print("        : %s+%s+%s+%s"%(AB,BC,CD,DA))
+                                print('        : %s'%(keliling))
+                                a = input('ulangi lagi y/n/x?')
+                                if a=="y" or a=="Y":
+                                	print()
+                                elif a=="N" or a=="n":
+                                	break
+                                elif a=="x" or a=='X':
+                                	exit()
+                        elif a=='2':
+                        	while True:
+                                    print('\nLUAS')
+                                    #add data
+                                    a = input('ulangi lagi y/n/x?')
+                                    if a=='y' or a=='Y':
+                                        print('')
+                                    elif a=="x" or a=="X":
+                                        exit()
+                                    elif a=="n" or a=='N':
+                                        break
+                        elif a=='3':
+                            while True:
+                                print('\nTinggi')
+                                #add data
+                                a = input('ulangi lagi y/n/x?')
+                                if a=='y' or a=='Y':
+                                    print('')
+                                elif a=="x" or a=="X":
+                                    exit()
+                                elif a=="n" or a=='N':
+                                    break
+                        elif a=='4':
+                            while True:
+                                print('\nSISI A')
+                                #add data
+                                a = input('ulangi lagi y/n/x?')
+                                if a=='y' or a=='Y':
+                                    print('')
+                                elif a=="x" or a=="X":
+                                    exit()
+                                elif a=="n" or a=='N':
+                                    break
+                        elif a=='5':
+                            while True:
+                                print('\nSISI B')
+                                #add data
+                                a = input('ulangi lagi y/n/x?')
+                                if a=='y' or a=='Y':
+                                    print('')
+                                elif a=="x" or a=="X":
+                                    exit()
+                                elif a=="n" or a=='N':
+                                    break
+                        elif a=='6':
+                            while True:
+                                print('\nSISI AD')
+                                #ADD DATA
+                                a = input('ulangi lagi y/n/x?')
+                                if a=='y' or a=='Y':
+                                    print('')
+                                elif a=="x" or a=="X":
+                                    exit()
+                                elif a=="n" or a=='N':
+                                    break
+                            
                 elif a=='6':
                     while True:
                         print('\njajar genjang')
