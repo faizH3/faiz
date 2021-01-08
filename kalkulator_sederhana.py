@@ -1,6 +1,5 @@
 # Origin Master
 ﻿import math
-
 while True:
         print("v1.0.0")
         print("=================================================================")
