@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=faizH3" alt="ekovegeance" /> </p>
+
+<!-- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/faizH3/newbie/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -35,3 +37,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ -->
