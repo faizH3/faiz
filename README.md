@@ -1,5 +1,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=faizH3" alt="ekovegeance" /> </p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=faizH3&show_icons=true" alt="faizH3" /></p>
+<p><img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=faizH3" />
 <!-- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/faizH3/newbie/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
