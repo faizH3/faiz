@@ -1,0 +1,11 @@
+'''
+seratus
+dua
+puluh
+sembilan
+juta
+tiga
+puluh
+sembilan
+ribu
+'''
