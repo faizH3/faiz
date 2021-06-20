@@ -1,4 +1,5 @@
 <p><img align='center' src='https://github.com/faizH3/tree/blob/master/img/created_profile.svg' alt='faizH3'/></p>
+<p><img align='center' src='https://github.com/faizH3/tree/blob/master/img/badge.svg' alt='faizH3'/></p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=faizH3" alt="faizH3" /> </p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=faizH3&show_icons=true" alt="faizH3" /></p>
 <p><img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=faizH3" />
