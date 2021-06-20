@@ -2,7 +2,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=faizH3&show_icons=true" alt="faizH3" /></p>
 <p><img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=faizH3" />
 <p><src="https://github.com/faizH3/tree/deployments/activity_log"/>
-<p>https://1.bp.blogspot.com/-8xokJjA7B0w/YLgJ9HeA72I/AAAAAAAAKSs/5IqhJKRxHkQqFtjDlEJub14LC5EDnPPNwCLcBGAsYHQ/s0/SmartHomeNotificationsBlogAsset.png</p>
+<p><img align='center' src=''</p>
 <!-- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/faizH3/newbie/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
