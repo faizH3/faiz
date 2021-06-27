@@ -15,7 +15,7 @@ while True:
         print("|>+---+                                                        <|")
         print("|>| 4 | KALKULUS                                               <|")
         print("|>+---+                                                        <|")
-        print("|>| 5 | ?????                                                  <|")
+        print("|>| 5 | TRAPESIUM                                              <|")
         print("|>+---+                                                        <|")
         print("|>| 6 | ?????                                                  <|")
         print("|>+---+                                                        <|")
